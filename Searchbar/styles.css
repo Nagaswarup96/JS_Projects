@@ -1,0 +1,64 @@
+body{
+    
+    margin: 0;
+   background : url("https://scx2.b-cdn.net/gfx/news/2019/2-nature.jpg");
+    background-size: 100vh;
+    background-repeat: repeat;
+   align-items: center;
+}
+
+.Container{
+   
+    margin-left: 35%;
+    text-align: center;
+    color: cornsilk;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'MonteCarlo', cursive;
+    font-weight:bold;
+    font-size: 4rem;
+}
+h3{
+    color:red;
+}
+
+
+.Container input{
+    
+    padding: 10px;
+    border: rgb(175, 162, 108) solid 3px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+input:hover{
+    border: rgb(226, 190, 43) solid 3px;
+    border-radius: 4px;
+}
+button{
+    margin: 0;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(179, 186, 196);
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: darkolivegreen;
+}
+
+.Details{
+    list-style: none;
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: rgb(56, 56, 54);
+    border: rgb(226, 190, 43) solid 1px;
+    border-bottom: none;
+    border-top: none;
+    /* padding: 10px; */
+}
