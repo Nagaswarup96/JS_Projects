@@ -1,0 +1,62 @@
+
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+div{
+    border: black 1px solid;
+}
+.Calci{
+    background-color: rgb(51, 33, 21);
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 380px;
+    width: 305px;
+    border-radius: 5px;
+}
+#display{
+    font-size: 3rem;
+    height: 80px;
+    width:288px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgb(177, 171, 171);
+    text-decoration: none;
+    -webkit-appearance: none;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttons{
+    
+    margin: 2px;
+   height:295px;
+   padding: 3px;
+}
+
+
+.table button{
+    background-color: rgb(180, 206, 180);
+   margin: 2px;
+    height:60px;
+    width: 50px;
+    border-radius: 4px;
+    
+}
+
+h1{
+    margin-top: 5%;
+}
+
+#clear{
+    width: 108px;
+}
+
+.plus button{
+    height: 128px;
+}

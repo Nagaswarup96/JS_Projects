@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="Calci">
+        <table class="table">
+            <tr>
+                <th colspan="5"><input type="text" value="" name="display" id="display" readonly></th>
+            </tr>
+
+            <tr>
+                <th><button id="number" value="7">7</button></th>
+                <th><button id="number" value="8">8</button></th>
+                <th><button id="number" value="9">9</button></th>
+                <th colspan="2"><button id="clear">C</button></th>
+            </tr>
+            <tr>
+                <th><button id="number" value="4">4</button></th>
+                <th><button id="number" value="5">5</button></th>
+                <th><button id="number" value="6">6</button></th>
+                <th><button id="operator" value="-">-</button></th>
+                <th><button id="operator" value="/">/</button></th>
+            </tr>
+            <tr>
+                <th><button id="number" value="1">1</button></th>
+                <th><button id="number" value="2">2</button></th>
+                <th><button id="number" value="3">3</button></th>
+                <th rowspan="2" class="plus"><button  id="operator" value="+">+</button></th>
+                <th><button id="operator" value="*">*</button></th>
+            </tr>
+            <tr>
+                <th><button id="number" value="0">0</button></th>
+                <th><button id="number" value="00">00</button></th>
+                <th><button id="number" value=".">.</button></th>
+                <th><button id="equal">=</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
